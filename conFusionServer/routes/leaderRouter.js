@@ -76,3 +76,5 @@ leaderRouter.route('/:leaderId')
     }, (err) => next(err))
     .catch((err) => next(err));
 });
+
+module.exports = leaderRouter;

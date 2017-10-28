@@ -76,3 +76,5 @@ promoRouter.route('/:promoId')
     }, (err) => next(err))
     .catch((err) => next(err));
 });
+
+module.exports = promoRouter;
